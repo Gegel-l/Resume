@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+@media (max-width: 650px) {
+  .info-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .row-block {
+    display: flex;
+    flex-direction: column;
+    width: 870px;
+  }
+}
+body {
+  color: #0F141E;
+  background: #F1F1F1;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+}
+a {
+  text-decoration: none;
+  color: rgb(5, 125, 146);
+  transition: all .2s;
+}
+a:hover {
+  color: chocolate;
+  text-decoration: underline;
+}
+img {
+  margin-top: 5px;
+  border-radius: 10%;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+ol {
+  list-style: disc;
+  padding: 0 20px;
+}
+li {
+  margin-bottom: 10px;
+  transition: all .2s;
+}
+p {
+  margin-bottom: 20px;
+}
+.table {
+  width: 100%;
+}
+.table td {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.container {
+  max-width: 70%;
+  margin: 0 auto;
+}
+.info-text {
+  display: flex;
+  margin-bottom: 20px;
+}
+.info-text p {
+  font-style: italic;
+  color: #5b5d61;
+}
+.text-info {
+  margin-left: 20px;
+}
+.info-contact {
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.info-contact h2{
+  text-align: center;
+}
+.card {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background: #fff;
+}
+.btn {
+  background-color: chocolate;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 20px;
+  transition: all .2s;
+  font: inherit;
+  cursor: pointer;
+}
+.form-block label {
+  display: block;
+  font-size: 14px;
+  color: #373738;
+}
+.form-block input,
+.form-block textarea {
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  color: black;
+  border-bottom: 1px solid #ccc;
+  padding: 15px 0 10px;
+  font-family: inherit;
+}
+.row-block {
+  display: flex;
+}
+.row-block .form-block {
+  margin-right: 20px;
+  width: 50%;
+}
+.row-block .form-block:last-child {
+  margin-right: 0;
+}
+.btn:hover {
+  opacity: .8;
+}
+.bg-green {
+  background-color: rgb(227, 247, 199);
+}
+.bg-red {
+  background-color: rgb(247, 186, 186);
+}
+.bg-purple {
+  background-color: rgb(233, 181, 247);
+}
+
+
